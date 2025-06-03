@@ -32,7 +32,7 @@ def load_langgraph_agenticai_app():
             try:
                 # Configure LLM
                 obj_llm_config = GroqLLM(user_controls_input=user_input)
-                model = obj_llm_config.get_llm_model()
+                model = obj_llm_config.get_llm_SDLC_model_model()
                 
                 if not model:
                     st.error("Error: LLM model could not be initialized.")

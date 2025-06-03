@@ -6,3 +6,16 @@ langchain_groq
 langchain_openai
 faiss-cpu
 streamlit
+numpy
+pandas
+scikit-learn
+tensorflow
+torch
+transformers
+black
+flake8
+isort
+python-dotenv
+requests
+tqdm
+langchain_huggingface
